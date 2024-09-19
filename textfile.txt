@@ -33,4 +33,7 @@ www.URL - 3600 - IN - AAAA -
 
 Til de som skal sette DNS instillingene:
 
+Hei.
+Har dere mulighet til å hjelpe meg med å peke domene pedersenkran.no hvis jeg sender DNS innstillinger?
+
 fjern/ikke inkluder denne linjen: _acme-challenge.URL - 60 - IN - CNAME - URL.no.acme.service.one.com
