@@ -1,0 +1,36 @@
+Til: support@no.one.com
+
+Hei.
+Jeg trenger disse DNS instillingene for URL.
+
+*.URL - 900 - IN - A - 
+*.URL - 900 - IN - AAAA -
+_acme-challenge.URL - 60 - IN - CNAME - 
+_caldvas.tcp.URL - 3600 - IN - SRV - 
+ed1._domainkey.URL - 14400 - IN - CNAME - 
+ftp.URL - 3600 - IN - A - 
+ftp.URL - 3600 - IN - AAAA - 
+phpmyadmin.URL - 3600 - IN - AAAA - 
+URL - 3600 - IN - A - 
+URL - 3600 - IN - AAAA - 
+URL - 10800 - IN - MX - 
+URL - 10800 - IN - MX - 
+URL - 10800 - IN - MX - 
+URL - 10800 - IN - MX - 
+URL - 14400 - IN - NS - 
+URL - 14400 - IN - NS - 
+URL - 14400 - IN - SOA -
+rsa1._domainkey.URL - 14400 - IN - CNAME - 
+sftp.URL - 3600 - IN - A - 
+sftp.URL - 3600 - IN - AAAA - 
+ssh.URL - 3600 - IN - A - 
+ssh.URL - 3600 - IN - AAAA - 
+ssh.URL - 3600 - IN - SSHFP - 
+ssh.URL - 3600 - IN - SSHFP - 
+www.URL - 3600 - IN - A - 
+www.URL - 3600 - IN - AAAA - 
+
+
+Til de som skal sette DNS instillingene:
+
+fjern/ikke inkluder denne linjen: _acme-challenge.URL - 60 - IN - CNAME - URL.no.acme.service.one.com
